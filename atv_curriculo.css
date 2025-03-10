@@ -1,0 +1,125 @@
+body {
+    background-color: #F5F5F5;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1150px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-size: 17px;
+}
+
+.nome {
+    background-color: #836FFF;
+    color: #000080;
+    text-align: center;
+    font-weight: bold;
+}
+
+.informacao {
+    text-align: center;
+    font-size: small;
+    padding-bottom: 15px;
+}
+
+.titulo_objetivo {
+    background-color: #dbd6d68c;
+    font-weight: bold;
+    text-align: left;
+    border-bottom: 3px solid #000080;
+    color: #000080;
+    padding: 8px;
+}
+
+.objetivo {
+    text-align: left;
+    font-size: 20px;
+    padding-bottom: 18px;
+}
+
+.titulo_experiencia {
+    background-color: #dbd6d68c;
+    font-weight: bold;
+    text-align: left;
+    border-bottom: 3px solid #000080;
+    color: #000080;
+    padding: 8px;
+}
+
+b {
+    color: #0000CD;
+}
+
+.titulo_formacao{
+    background-color: #dbd6d68c;
+    font-weight: bold;
+    text-align: left;
+    border-bottom: 3px solid #000080;
+    color: #000080;
+    padding: 8px;
+}
+
+
+
+.empresa {
+    font-weight: bold;
+    font-size: 17px
+}
+
+.cargo {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+ul li {
+    list-style-position: outside;
+}
+
+.titulo_habilidades{
+    background-color: #dbd6d68c;
+    font-weight: bold;
+    text-align: left;
+    border-bottom: 3px solid #000080;
+    color: #000080;
+    padding: 8px;
+}
+
+.tecnicas{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.resp {
+    text-decoration: underline;
+}
+
+.interpessoais{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.titulo_cursos{
+    background-color: #dbd6d68c;
+    font-weight: bold;
+    text-align: left;
+    border-bottom: 3px solid #000080;
+    color: #000080;
+    padding: 8px;
+}
+
+.titulo_idiomas{
+    background-color: #dbd6d68c;
+    font-weight: bold;
+    text-align: left;
+    border-bottom: 3px solid #000080;
+    color: #000080;
+    padding: 8px;
+}
+
+.idioma3{
+    padding-bottom: 20px;
+}
+
+.cursos{
+    font-weight: bold;
+}

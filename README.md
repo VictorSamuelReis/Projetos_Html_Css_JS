@@ -1,1 +1,1 @@
-Hello World! Here you'll find my HTML, CSS and JavaScript projects.
+Hello World! Here you'll find my HTML, CSS and JavaScript projects/activities.

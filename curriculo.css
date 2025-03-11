@@ -71,8 +71,12 @@ b {
     font-size: 17px;
 }
 
-ul li {
-    list-style-position: outside;
+ul {
+    padding: 0px;
+}
+
+li {
+    list-style-position: inside;
 }
 
 .titulo_habilidades{

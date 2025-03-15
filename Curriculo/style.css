@@ -14,12 +14,14 @@ body {
     color: #000080;
     text-align: center;
     font-weight: bold;
+    margin-bottom: 10px; 
 }
 
 .informacao {
     text-align: center;
     font-size: small;
     padding-bottom: 15px;
+    margin-top: 0px;
 }
 
 .titulo_objetivo {
@@ -73,6 +75,7 @@ b {
 
 ul {
     padding: 0px;
+    
 }
 
 li {

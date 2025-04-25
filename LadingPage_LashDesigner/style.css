@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+  max-width: 100%;
+}
+
+img, video {
+  max-width: 100%;
+}
+
+body {
+  background: #f5eaee;
+  color: #333;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+html, body{
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+header {
+  background-image: url('imgs_lpnr/lash.jpeg');
+  max-width: 100%;
+  text-align: center;
+  padding: 80px 20px;
+  color: white;
+  animation: fadeInDown 2s ease;
+  height: 390px;
+}
+
+header .typewriter {
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+  font-size: 18px;
+  border-right: 2px solid white;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  animation: typing 3s steps(40, end) forwards;
+}
+
+header .highlight {
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+  font-size: 2.5em;
+  color: #ff0080;
+  margin-top: 10px;
+  animation: fadeIn 4s ease-in-out;
+}
+
+header p {
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+  font-size: 1.2em;
+  margin: 10px 0 20px;
+  font-weight: bold;
+  color: #ff0080;
+}
+
+.btn, .btn-outline {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.btn {
+  background: linear-gradient(45deg, #ff0080, #ff6f91);
+  color: white;
+  box-shadow: 0 4px 15px rgba(255, 0, 128, 0.4);
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(255, 0, 128, 0.5);
+}
+
+.btn-outline {
+  border: 2px solid #ff0080;
+  color: #ff0080;
+}
+
+.btn-outline:hover {
+  background: #ff0080;
+  color: white;
+}
+
+section {
+  padding: 20px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #ff0080;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.galeria {
+  text-align: center;
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.galeria h2 {
+  color: #ff0080;
+  margin-bottom: 10px;
+}
+
+.galeria p {
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.galeria-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.galeria-container img,
+.galeria-container video {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.galeria-container img:hover,
+.galeria-container video:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(255, 0, 128, 0.4);
+}
+
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.fade-in-section.appear {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.depoimentos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.depoimento {
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 200px;
+  transition: transform 0.4s ease, box-shadow 0.3s ease;
+  box-shadow: 0 10px 20px rgba(255, 0, 128, 0.3);
+}
+
+.depoimento:hover {
+  transform: scale(1.07);
+  box-shadow: 0 10px 20px rgba(255, 0, 128, 0.3);
+}
+
+.depoimento img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+#galeria-antes-depois{
+  height: 350px;
+}
+
+.galeria {
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 300px;
+  transition: transform 0.4s ease, box-shadow 0.3s ease;
+  box-shadow: 0 10px 20px rgba(255, 0, 128, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  background-color: #f5eaee;
+}
+
+.galeria img,
+.galeria video {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px 12px 0 0;
+  object-fit: cover;
+}
+
+.legenda {
+  padding: 10px 8px;
+  background-color: #fce4ec;
+  color: #8e2c39;
+  font-weight: bold;
+  font-size: 0.95em;
+  width: 100%;
+  text-align: center;
+  border-top: 1px solid #ffc0cb;
+}
+
+.paragrafo {
+  padding-bottom: 15px;
+}
+
+footer {
+  background: #f1d3e0;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}

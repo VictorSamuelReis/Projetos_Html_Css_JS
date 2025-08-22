@@ -11,7 +11,7 @@
     e.preventDefault(); // evita recarregar a página
     let valor = this.pesquisa.value;
     if(valor.trim() !== "") {
-      // aqui você escolhe o que fazer
+      // ação
       window.location.href = "/resultado-da-pesquisa?pesquisa=" + encodeURIComponent(valor);
     }
   });

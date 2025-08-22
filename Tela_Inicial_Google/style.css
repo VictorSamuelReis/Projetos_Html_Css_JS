@@ -1,0 +1,111 @@
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    display: inline-block; /* Itens da lista em linha */
+    margin: 13px 9px 0px; /* Espaçamento entre os itens */
+    list-style: none; /* Remove os marcadores da lista */
+}
+
+a:link {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: black; /* Cor do texto dos links */
+}
+
+a:visited {
+    color: black; /* Cor do texto dos links visitados */
+}
+
+.headerMenu {
+    text-align: right; /* Alinha o menu à direita */
+    margin-right: 17px;
+}
+
+.img_apps {
+    position: relative; /* Permite posicionamento absoluto dos filhos */
+    top: 9.5px;
+}
+
+.entrar a {
+    font-size: 13px;
+    background-color:royalblue;
+    color: white !important; /* Garante que a cor do texto seja branca */
+    padding: 9px 22px;
+    border-radius: 3.5px; /* Borda arredondada */
+}
+
+.logo_google {
+    text-align: center;
+    margin: 60px 0px 40px;
+}
+
+.barra {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+}
+
+.lupa {
+    position: relative; /* Permite posicionamento absoluto dos filhos */
+    bottom: 10px;
+    right: 30px;
+}
+
+.input_pesquisa {
+    border: none;
+    width: 570px;
+    font-size: 16px;
+    position: relative;
+    bottom: 13px;
+    right: 30px;
+}
+
+.input_pesquisa:focus {
+    outline: none; /* Remove a borda azul ao clicar no input */
+}
+
+.microfone {
+    position: relative; /* Permite posicionamento absoluto dos filhos */
+    bottom: 5px;
+}
+
+.img_pesquisa {
+    position: relative; /* Permite posicionamento absoluto dos filhos */
+    margin-right: 5px;
+    bottom: 5px;
+}
+
+.barra_pesquisa {
+    border: 1px solid black;
+    border-radius: 70px;
+    display: inline-block;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;  /* organiza os itens em coluna */
+    align-items: center;     /* centraliza na horizontal */
+    margin-top: 30px;
+}
+
+.msg {
+    background-color: #f1eeee;
+    padding: 17px;
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+
+.idioma {
+    color: darkblue;
+}
+
+.pesquisa_voz,
+.pesquisa_imagem {
+    background: none;   /* remove fundo */
+    border: none;       /* remove borda */
+    padding: 0;         /* remove espaçamento interno */
+    cursor: pointer;    /* mantém cursor de botão */
+}
+

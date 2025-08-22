@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google.com</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script>
+  document.getElementById("formPesquisa").addEventListener("submit", function(e) {
+    e.preventDefault(); // evita recarregar a página
+    let valor = this.pesquisa.value;
+    if(valor.trim() !== "") {
+      // aqui você escolhe o que fazer
+      window.location.href = "/resultado-da-pesquisa?pesquisa=" + encodeURIComponent(valor);
+    }
+  });
+</script>
+<body>
+    <div class="container">
+      <header class="headerMenu">
+        <nav>
+            <ul>
+                <li><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">Gmail</a></li>
+                <li><a href="https://www.google.com/imghp?hl=pt-BR&tab=ri&authuser=0&ogbl">Imagens</a></li>
+                <li class="img_apps"><a href="https://www.google.com.br/intl/pt-BR/about/products?tab=rh">
+                        <img src="/TelaGoogle/Imagens/Captura de tela 2025-08-21 160346.png" alt="Apps">
+                    </a>
+                </li>
+                <li class="entrar"><a href="https://accounts.google.com/SignOutOptions?hl=pt-BR&continue=https://www.google.com%3Fhl%3Dpt-BR&ec=GBRA8wE">Entrar</a></li>
+            </ul>
+        </nav>
+      </header>
+      <div class="logo_google">
+        <img src="/TelaGoogle/Imagens/images.png" alt="logo">
+      </div>
+      <main>
+        <section>
+            <article class="barra">
+                <ul class="barra_pesquisa">
+                    <li class="lupa">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <circle cx="11" cy="11" r="7"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                    </li>
+                    <li>
+                        <form class="form_pesquisa">
+                            <input type="search" name="pesquisa" placeholder="Pesquisar no Google ou digitar um URL" class="input_pesquisa">
+                        </form>
+                    </li>
+                    <li>
+                        <button class="pesquisa_voz" title="Pesquisa por voz">
+                            <img src="/TelaGoogle/Imagens/Captura de tela 2025-08-21 170538.png" alt="Pesquisa por voz" class="microfone">
+                        </button>
+                    </li>
+                    <li>
+                        <button class="pesquisa_imagem" title="Pesquisa por imagem">
+                            <img src="/TelaGoogle/Imagens/Captura de tela 2025-08-21 170543.png" alt="Pesquisa por imagem" class="img_pesquisa">
+                        </button>
+                    </li>
+                </ul>
+            </article>
+            <article class="content">
+                <div>
+                    <p class="msg">Pesquisa Google</p>
+                    <p class="msg">Sinto-me com sorte</p>
+                </div>
+                <p>Disponibilizado pelo Google em: <span class="idioma">Portugues (Brasil)</span></p>
+            </article>
+        </section>
+      </main>
+</body>
+</html>
